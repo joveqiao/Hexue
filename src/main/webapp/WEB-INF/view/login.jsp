@@ -6,28 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>时光博客管理后台——系统登录</title>
-<link href="<%=request.getContextPath() %>/resources/css/css.css"
-	rel="stylesheet" type="text/css" />
-<link rel="shortcut icon"
-	href="<%=request.getContextPath() %>/resources/img/favicon.ico" />
-<script src="<%=request.getContextPath() %>/resources/js/mysite.js"
-	type="text/javascript"></script>
-<script src="<%=request.getContextPath() %>/resources/common/jquery.js"
-	type="text/javascript"></script>
-<script
-	src="<%=request.getContextPath() %>/resources/common/formvalidator/formValidator-4.1.3.js"
-	type="text/javascript" charset="UTF-8"></script>
-<script
-	src="<%=request.getContextPath() %>/resources/common/formvalidator/formValidatorRegex.js"
-	type="text/javascript" charset="UTF-8"></script>
-<script language="javascript"
-	src="<%=request.getContextPath() %>/resources/common/formvalidator/DateTimeMask.js"
-	type="text/javascript"></script>
-<script
-	src="<%=request.getContextPath() %>/resources/common/artDialog/jquery.artDialog.js?skin=default"></script>
-<script language="javascript"
-	src="<%=request.getContextPath() %>/resources/js/formval.js"
-	type="text/javascript"></script>
+<%@ include file="/resources/includeUtility.jspf" %>
 <style type="text/css">
 body {
 	background:
